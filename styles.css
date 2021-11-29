@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.button {
+	
+	min-width: 150px;
+	max-width: 250px;
+	display: block;
+	margin: 1em;
+	padding: 1em 1em;
+    background-color: wheat;
+    font-size: 20px;
+}
+
+.button--border-thin {
+	border: 1px solid;
+}
+
+.container-pokemon{
+    display:grid;
+    grid-template-columns: 100vw;
+    background-color: #cc0000;
+    height: 50vh;
+    text-align: center;
+}
+
+.pokemon-name{
+    color:white;
+    font-size: 45px;
+}
+
+.container-controles{
+    padding-top: 20px;
+    display: grid;
+    text-align: center;
+    font-size: 35px;
+}
+
+button {
+    margin-top: 25px;
+    align-self: center;
+    justify-self: center;
+}
+
+.pokemon-image{
+    width:250px;
+}
+
+#pokemon-text{
+    height:30px;
+    font-size:16pt;
+}
